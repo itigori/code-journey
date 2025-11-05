@@ -13,8 +13,8 @@ This repository serves as a digital notebook for tracking my progress in program
 - **Cheatsheets** for quick reference on syntax or concepts.
 
 ## 🛠️ Tech Stack
-- **Languages:** C
-- **Tools:** Git, VS Code
+- **Languages:** C, Python
+- **Tools:** Git, VS Code, PyCharm
 - **Concepts:** Basic knowledge
 
 
