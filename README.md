@@ -14,15 +14,15 @@ This repository serves as a digital notebook for tracking my progress in program
 - **Module** modular learning
 
 ## 🛠️ Tech Stack
-- **Languages:** C, C++, C#, Python
-- **Tools:** Git, VS Code, PyCharm, Clion, Jupyter Notebook
-- **Concepts:** Basic knowledge
+- **Languages:** C, C++, C#, Python, javascript
+- **Tools:** Git, VS Code, PyCharm, Clion, Jupyter Notebook, HBuilder X, Webstorm
+- **Concepts:** Basic knowledge, Software development
 
 
 ## 🚀 How to Use
 1. Clone the repo:
 ```bash
-   git clone https://github.com/HoshikawaMiku/code-journey.git
+   git clone https://github.com/TakanashiMirai/code-journey.git
 ```
 2. Navigate to topics of interest.
 3. Use notes as reference or adapt code for your projects!
