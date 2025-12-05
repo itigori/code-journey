@@ -14,7 +14,7 @@ This repository serves as a digital notebook for tracking my progress in program
 - **Module** modular learning
 
 ## 🛠️ Tech Stack
-- **Languages:** C, C++, C#, Python, javascript
+- **Languages:** C, C++, C#, Python, HTML, CSS, javascript, Vue
 - **Tools:** Git, VS Code, PyCharm, Clion, Jupyter Notebook, HBuilder X, Webstorm
 - **Concepts:** Basic knowledge, Software development
 
