@@ -21,7 +21,7 @@ This repository serves as a digital notebook for tracking my progress in program
 ## 🚀 How to Use
 1. Clone the repo:
 ```bash
-   git clone https://github.com/HoshikawaMiku/code-journey.git
+   git clone https://github.com/TakanashiMirai/code-journey.git
 ```
 2. Navigate to topics of interest.
 3. Use notes as reference or adapt code for your projects!
