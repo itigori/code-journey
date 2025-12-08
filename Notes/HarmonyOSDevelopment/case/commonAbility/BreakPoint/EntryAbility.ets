@@ -8,7 +8,12 @@ export default class EntryAbility extends UIAbility {
   // 根据当前窗口尺寸更新断点
   private updateBreakPoint(windowWidth: number): void{
     // 将长度的单位由px换算为vp
-    let windowWidthVp = windowWidth / display.getDefaultDisplaySync().densityPixels
+    // 此处可以直接用let windowWidthVp = windowWidth / display.getDefaultDisplaySync().densityPixels，不必进行try/catch
+    try {
+      let windowWidthVp = windowWidth / display.getDefaultDisplaySync().densityPixels
+    } catch (error) {
+      console.error('windowWidthVp is break')
+    }
     let newBp: string = ''
     if (windowWidthVp < 320) {
       newBp = 'xs'
