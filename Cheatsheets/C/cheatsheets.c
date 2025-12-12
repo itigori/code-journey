@@ -816,6 +816,7 @@ struct Book
     char id[30];
 };
 
+
 int main(){
     struct Stu s = {'张三', '20', '85.5'};  //结构体的创建和初始化
 
