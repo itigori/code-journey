@@ -30,4 +30,19 @@ export default class EntryAbility extends UIAbility {
       console.error('windowWidthVp is break')
     }
   }
+
+    async onWindowStageCreate(windowStage: window.WindowStage): Promise<void> {
+    // let windowClass: window.Window
+    windowStage.getMainWindow().then((windowObj) => {
+      this.windowObj = windowObj
+      // windowClass.setWindowLayoutFullScreen(true);
+      // 获取应用启动时的窗口尺寸
+      this.updateBreakPoint(windowObj.getWindowProperties().windowRect.width)
+      // 注册回调函数，监听窗口尺寸变化
+      windowObj.on('windowSizeChange', (windowSize)=>{
+        this.updateBreakPoint(windowSize.width)
+      })
+    })
+  }
 }
+
