@@ -1,0 +1,66 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>注册信息</h1>
+    <form action="1">
+        <h2>个人信息</h2>
+        姓名：<input type="text" placeholder="请输入真实姓名">
+        <br><br>
+        密码：<input type="password" placeholder="请输入密码">
+        <br><br>
+        确认密码：<input type="password" placeholder="请再输入一次密码">
+        <br><br>
+        性别：
+        <label><input type="radio" id="man" name="gender">男</label>
+        <label><input type="radio" id="women" name="gender">女</label>
+        <br><br>
+        居住城市：<select name="select" id="1">
+            <option value="1">北京</option>
+            <option value="2" selected>上海</option>
+            <option value="3">广州</option>
+            <option value="4">深圳</option>
+        </select>
+        <br>
+        <h2>教育经历</h2>
+        最高学历：<select name="select" id="2">
+            <option value="1">博士</option>
+            <option value="2">硕士</option>
+            <option value="3">本科</option>
+        </select>
+        <br><br>
+        学校名称：<input type="text">
+        <br><br>
+        所学专业：<input type="text">
+        <br><br>
+        在校时间：<select name="frontTime" id="3">
+            <option value="1">2015</option>
+            <option value="2">2016</option>
+        </select>
+        --
+        <select name="lastTime" id="4">
+            <option value="1">2019</option>
+            <option value="2">2020</option>
+        </select>
+        <br>
+        公司名称：<input type="text">
+        <br><br>
+        工作描述：
+        <br>
+        <textarea name="1" id="1"></textarea>
+        <br><br>
+        <input type="checkbox">已阅读并同意以下协议
+        <ul>
+            <li><a href="#"><ins>用户服务协议</ins></a></li>
+            <li><a href="#"><ins>隐私政策</ins></a></li>
+        </ul>
+        <br><br>
+        <button type="submit">免费注册</button>
+        <button type="reset">重新填写</button>
+    </form>
+</body>
+
+</html>
